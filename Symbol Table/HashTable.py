@@ -3,7 +3,7 @@ from pprint import pprint
 class HashTable:
     def __init__(self, size):
         self.__size = size
-        self.__items = [[] for _ in range(size)]
+        self.__items = [set() for _ in range(size)]
 
     def index(self, elem):
         position = self.hash(elem)
@@ -16,12 +16,8 @@ class HashTable:
         return sum(ord(letter) for letter in list(elem)) % self.__size
 
     def add(self, elem):
-        position = self.index(elem)
-        if position != -1:
-            return position;
-
         position = self.hash(elem)
-        self.__items[position].append(elem)
+        self.__items[position].add(elem)
 
         return position
 
