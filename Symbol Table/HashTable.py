@@ -1,12 +1,14 @@
+from pprint import pprint
+
 class HashTable:
     def __init__(self, size):
         self.__size = size
         self.__items = [[] for _ in range(size)]
 
     def index(self, elem):
-        for index, lst in enumerate(self.__items):
-            if elem in lst:
-                return index
+        position = self.hash(elem)
+        if elem in self.__items[position]:
+            return position
 
         return -1
 
@@ -22,3 +24,6 @@ class HashTable:
         self.__items[position].append(elem)
 
         return position
+
+    def __str__(self):
+        return self.__items.__str__()

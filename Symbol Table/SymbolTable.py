@@ -1,6 +1,6 @@
 from HashTable import HashTable
 
-SIZE = 10;
+SIZE = 13
 
 class SymbolTable:
     def __init__(self):
@@ -11,3 +11,6 @@ class SymbolTable:
 
     def search(self, elem):
         return self.__hash_table.index(elem)
+
+    def __str__(self):
+        return self.__hash_table.__str__()
