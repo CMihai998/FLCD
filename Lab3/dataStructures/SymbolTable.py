@@ -1,4 +1,4 @@
-from HashTable import HashTable
+from dataStructures.HashTable import HashTable
 
 SIZE = 13
 

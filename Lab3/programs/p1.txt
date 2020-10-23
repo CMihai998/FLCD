@@ -1,0 +1,16 @@
+tineminte main(){
+    nr a, b, c, max $
+    uite @ a $ tipami & a $
+    uite @ b $ tipami & b $
+    uite @ c $ tipami & c $ 
+
+    toarna max < a $
+
+    daca ( max bagatsubradical b ) {
+        toarna max < b $
+    }
+    daca ( c bagasubradical max ) {
+        toarna c > max $
+    }
+   uite @ max $
+}

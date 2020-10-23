@@ -1,0 +1,19 @@
+tineminte main() {
+    nr x $
+    castron prim $
+    
+    toarna prim < DADADA $
+	32fds
+    uite @ 'x= $ tipami & x $
+
+    daca ( x bagatsubradical 1 ){
+        toarna prim < NAH $
+    }
+    loop ( nr i < 2 $ i bagatsubradical x // 2 si prim === DADADA $ i creste ) {
+        daca ( x % i === 0 ) {
+            toarna 10prim < NAH $
+        }
+    }
+
+   uite @ prim $
+}

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9c8a243-258d-470d-bc36-ef6e9ad05479" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lab2/Lexic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/Lexic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mobile/Lab1/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mobile/Lab1/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mobile/Lab1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mobile/Lab1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mobile/Lab1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mobile/Lab1/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Mobile/Lab1/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../Mobile/Lab1/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab1/src/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab1/src/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab1/src/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab1/src/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PDP/Lab1/src/cmake-build-debug/CMakeFiles/src.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../PDP/Lab1/src/cmake-build-debug/CMakeFiles/src.dir/build.make" afterDir="false" />
+    </list>
+    <list id="561ededd-7f44-491a-afee-80bf7b99d332" name="Revert &quot;Revert &quot;Lab2 FLCD&quot;&quot;" comment="Revert &quot;Revert &quot;Lab2 FLCD&quot;&quot;&#10;&#10;This reverts commit 41a7ac5f" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JupyterTrust" id="df6bcb08-b3b3-46ef-a9d2-a696bba1a408" />
+  <component name="ProjectId" id="1ivWQreoHfji9UL7rxp9SsAhqnx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataStructures" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Lab3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9c8a243-258d-470d-bc36-ef6e9ad05479" name="Default Changelist" comment="" />
+      <created>1602788534321</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602788534321</updated>
+      <workItem from="1602788538069" duration="2151000" />
+      <workItem from="1602823780896" duration="1209000" />
+      <workItem from="1602825221046" duration="25000" />
+      <workItem from="1602830095213" duration="737000" />
+      <workItem from="1602932881529" duration="31000" />
+      <workItem from="1603390307171" duration="10595000" />
+      <workItem from="1603429085916" duration="8847000" />
+    </task>
+    <task id="LOCAL-00001" summary="Lab2 FLCD">
+      <created>1602790511424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602790511424</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revert &quot;Lab2 FLCD&quot;&#10;&#10;This reverts commit d6d0c9fd">
+      <created>1602790542749</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602790542749</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert &quot;Revert &quot;Lab2 FLCD&quot;&quot;&#10;&#10;This reverts commit 41a7ac5f">
+      <created>1602790630139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602790630139</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lab 3 FLCD">
+      <created>1603401022381</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603401022381</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lab3 pdp">
+      <created>1603437141779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603437141780</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab2 FLCD" />
+    <MESSAGE value="Revert &quot;Lab2 FLCD&quot;&#10;&#10;This reverts commit d6d0c9fd" />
+    <MESSAGE value="Revert &quot;Revert &quot;Lab2 FLCD&quot;&quot;&#10;&#10;This reverts commit 41a7ac5f" />
+    <MESSAGE value="Lab 3 FLCD" />
+    <MESSAGE value="Lab3 pdp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab3 pdp" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2596" y="443" width="557" height="339" key="#Notifications" timestamp="1602830214519">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2596" y="443" width="557" height="339" key="#Notifications/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1602830214519" />
+    <state x="3091" y="362" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603390386180">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="3091" y="362" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603390386180" />
+    <state x="2960" y="171" width="785" height="883" key="CommitChangelistDialog2" timestamp="1602790630075">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2960" y="171" width="785" height="883" key="CommitChangelistDialog2/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1602790630075" />
+    <state x="219" y="138" width="516" height="828" key="Diagram.Print.Preview.Dialog" timestamp="1603437623874">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state x="219" y="138" width="516" height="828" key="Diagram.Print.Preview.Dialog/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1603437623874" />
+    <state x="743" y="453" width="424" height="484" key="FileChooserDialogImpl" timestamp="1603437545198">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state x="743" y="453" key="FileChooserDialogImpl/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1603437545198" />
+    <state x="2663" y="370" width="424" height="484" key="FileChooserDialogImpl/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1602932898027" />
+    <state width="1876" height="478" key="GridCell.Tab.0.bottom" timestamp="1603436648016">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="478" key="GridCell.Tab.0.bottom/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1603436648016" />
+    <state width="1876" height="478" key="GridCell.Tab.0.bottom/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603436331509" />
+    <state width="1876" height="478" key="GridCell.Tab.0.center" timestamp="1603436648016">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="478" key="GridCell.Tab.0.center/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1603436648016" />
+    <state width="1876" height="478" key="GridCell.Tab.0.center/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603436331509" />
+    <state width="1876" height="478" key="GridCell.Tab.0.left" timestamp="1603436648016">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="478" key="GridCell.Tab.0.left/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1603436648016" />
+    <state width="1876" height="478" key="GridCell.Tab.0.left/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603436331509" />
+    <state width="1876" height="478" key="GridCell.Tab.0.right" timestamp="1603436648016">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state width="1876" height="478" key="GridCell.Tab.0.right/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1603436648016" />
+    <state width="1876" height="478" key="GridCell.Tab.0.right/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603436331509" />
+    <state width="904" height="349" key="GridCell.Tab.1.bottom" timestamp="1603432074266">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="904" height="349" key="GridCell.Tab.1.bottom/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603432074266" />
+    <state width="904" height="349" key="GridCell.Tab.1.center" timestamp="1603432074266">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="904" height="349" key="GridCell.Tab.1.center/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603432074266" />
+    <state width="904" height="349" key="GridCell.Tab.1.left" timestamp="1603432074266">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="904" height="349" key="GridCell.Tab.1.left/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603432074266" />
+    <state width="904" height="349" key="GridCell.Tab.1.right" timestamp="1603432074266">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state width="904" height="349" key="GridCell.Tab.1.right/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603432074266" />
+    <state x="2384" y="247" key="SettingsEditor" timestamp="1603429327199">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="2384" y="247" key="SettingsEditor/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603429327199" />
+    <state x="401" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1603437157389">
+      <screen x="0" y="120" width="1920" height="1080" />
+    </state>
+    <state x="401" y="260" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1200/0.120.1920.1080@0.120.1920.1080" timestamp="1603437157389" />
+    <state x="2321" y="156" width="800" height="528" key="Vcs.Push.Dialog.v2/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603401034619" />
+    <state x="3021" y="291" width="672" height="678" key="search.everywhere.popup" timestamp="1603436149383">
+      <screen x="1920" y="0" width="1920" height="1200" />
+    </state>
+    <state x="3021" y="291" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1200/0.120.1920.1080@1920.0.1920.1200" timestamp="1603436149383" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Lab3$main.coverage" NAME="main Coverage Results" MODIFIED="1603436331501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

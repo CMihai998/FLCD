@@ -1,5 +1,3 @@
-from pprint import pprint
-
 class HashTable:
     def __init__(self, size):
         self.__size = size
@@ -22,4 +20,7 @@ class HashTable:
         return position
 
     def __str__(self):
-        return self.__items.__str__()
+        result = ''
+        for index, elem in enumerate(self.__items):
+            result += str(index) + ':' + elem.__str__() + '\n'
+        return result

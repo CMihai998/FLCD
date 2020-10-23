@@ -1,0 +1,15 @@
+tineminte main() {
+    nr n, x[100], suma $
+
+    toarna suma < 0 $
+
+    uite @ n $ tipami & n $
+
+    loop (nr i < 0 $ i bagatsubradical x $ i creste) {
+        uite @ x $ tipami & x[i] $
+        suma creste x[i] $
+    }
+
+   uite @ sum $
+
+}

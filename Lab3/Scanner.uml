@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>scanner.Scanner.Scanner</OriginalElement>
+  <nodes>
+    <node x="190.0" y="-2.0">scanner.Scanner.Scanner</node>
+    <node x="382.0" y="311.0">scanner.Tokens.Tokens</node>
+    <node x="0.0" y="547.0">dataStructures.SymbolTable.SymbolTable</node>
+    <node x="0.0" y="308.0">dataStructures.HashTable.HashTable</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Tree" zoom="1.0" x="662.0" y="405.0" />
+  <SelectedNodes>
+    <node>scanner.Scanner.Scanner</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+
