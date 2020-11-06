@@ -63,7 +63,8 @@ class FiniteAutomaton:
         possible_future_states = []
         for transition, future_state in self.transitions[current_state].items():
             if transition == char:
-                possible_future_states.append(element for element in future_state)
+                for element in future_state:
+                    possible_future_states.append(element)
         if not possible_future_states:
             return False
         else:
@@ -73,4 +74,3 @@ if __name__ == '__main__':
     finite_autoamton = FiniteAutomaton("input.json")
     print(finite_autoamton.transitions)
     finite_autoamton.menu.open()
-#TODO determinism
