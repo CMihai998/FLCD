@@ -1,5 +1,6 @@
 import re
 
+from finite_automation import FiniteAutomaton
 from scanner.Tokens import Tokens
 
 
@@ -7,6 +8,8 @@ class Scanner:
 
     def __init__(self):
         self._tokens = Tokens()
+        self.fa_identifier = FiniteAutomaton("input.json", deterministic=True)
+        self.fa_constant = FiniteAutomaton("input2.json", deterministic=False)
 
     def tokenize(self, line):
         token_list = []
@@ -73,8 +76,9 @@ class Scanner:
         return char in self._tokens.get_reserved_words()
 
     def is_identifier(self, token):
-        return re.match("^[a-zA-Z][a-zA-Z0-9]{0,255}", token) is not None
+        return self.fa_identifier.check_wrapper(sequence=token)
 
     def is_constant(self, token):
+        # return self.fa_constant.check_wrapper(sequence=token)
         return re.match(r'^(0|[+\-]?[1-9][0-9]*)$|^\'.\'$|DADADA|NAH|\'[0-9a-zA-Z][=\-!@#=$%^&*()_+{}|":\[\]<>/\\]\'$',
                         token) is not None

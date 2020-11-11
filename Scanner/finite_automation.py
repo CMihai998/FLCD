@@ -22,10 +22,17 @@ class FiniteAutomaton:
 
         if deterministic:
             self.__deterministic = True
-            for state, transition_map in self.transitions.items():
-                key_list = list(transition_map.keys())
+            new_transitions = {}
+            for transition in self.transitions:
+                key_list = [element[0] for element in transition[1]]
                 print(key_list)
-                assert key_list == list(dict.fromkeys(key_list))
+                assert len(key_list) == len(set(key_list))
+                values = {}
+                for element in transition[1]:
+                    values[element[0]] = element[1]
+                new_transitions[transition[0]] = values
+            self.transitions = new_transitions
+
 
     def __print_states(self):
         print(self.states)
@@ -43,6 +50,7 @@ class FiniteAutomaton:
         if not sequence:
             sequence = input("Give a sequence:")
         result = self.check(sequence=sequence, current_state=self.start_state)
+        return result
         if result:
             print("Valid sequence")
         else:
