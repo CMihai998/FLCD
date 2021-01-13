@@ -1,0 +1,19 @@
+tineminte 
+{
+nr aux $
+castron prm $
+toarna aux < 20 $
+toarna prm < DADADA $
+daca ( aux bagatsubradical 1 )
+{
+toarna prm < NU $
+}
+loop ( nr idx < 2 $ idx bagatsubradical aux // 2 si prm === DADADA )
+{
+daca ( aux % idx === 0 )
+{
+toarna prm < NU $
+}
+}
+uite @ prm $
+}

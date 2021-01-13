@@ -1,6 +1,7 @@
 %{ 	 
 #include <stdio.h>
 #include <string.h>
+#include "y.tab.h"
 int lines = 0;
 %} 
 
@@ -9,83 +10,68 @@ int lines = 0;
 
 DIGIT 		[0-9]
 WORD		\"[a-zA-Z0-9]*\"
-NUMBER		[+-]?[1-9][0-9]*|0
+NUMBER		[+-]?[1-9][0-9]*|0$
 CHARACTER 	\'[a-zA-Z0-9]\'
 CONST		{WORD}|{NUMBER}|{CHARACTER}
-ID 		[a-zA-Z][a-zA-Z0-9_]
+ID 		[a-zA-Z][a-zA-Z0-9_]*
 
 %%
 
-daca            {printf("Reserved word: %s\n", yytext);}
-uite              {printf("Reserved word: %s\n", yytext);}
-tipami            {printf("Reserved word: %s\n", yytext);}
-nr               {printf("Reserved word: %s\n", yytext);}
-castron             {printf("Reserved word: %s\n", yytext);}
-DADADA             {printf("Reserved word: %s\n", yytext);}
-NAH             {printf("Reserved word: %s\n", yytext);}
+daca            {printf("Reserved word: %s\n", yytext); return IF;}
+uite              {printf("Reserved word: %s\n", yytext); return OUT;}
+tipami            {printf("Reserved word: %s\n", yytext); return IN;}
+nr               {printf("Reserved word: %s\n", yytext); return NUMBER;}
+castron             {printf("Reserved word: %s\n", yytext); return BOOL;}
+DADADA             {printf("Reserved word: %s\n", yytext);  return TRUE;}
+NAH             {printf("Reserved word: %s\n", yytext); return FALSE;}
 
-loop               {printf("Reserved word: %s\n", yytext);}
-si              {printf("Reserved word: %s\n", yytext);}
-sau             {printf("Reserved word: %s\n", yytext);}
-tineminte             {printf("Reserved word: %s\n", yytext);}
+loop               {printf("Reserved word: %s\n", yytext);  return FOR;}
+si              {printf("Reserved word: %s\n", yytext); return AND;}
+sau             {printf("Reserved word: %s\n", yytext); return OR;}
+tineminte             {printf("Reserved word: %s\n", yytext);  return MAIN;}
 
-{ID}	{printf( "Identifier: %s\n", yytext );}
+{ID}	{printf( "Identifier: %s\n", yytext );  return IDENTIFIER;}
 
-{CONST}	{printf( "Constant: %s\n", yytext );}
+{CONST}	{printf( "Constant: %s\n", yytext );  return CONSTANT;}
 
 
-","	    {printf( "Separator: %s\n", yytext );}
-"."	    {printf( "Separator: %s\n", yytext );}
-"{"	    {printf( "Separator: %s\n", yytext );}
-"}"	    {printf( "Separator: %s\n", yytext );}
-"("	    {printf( "Separator: %s\n", yytext );}
-")"	    {printf( "Separator: %s\n", yytext );}
-"["	    {printf( "Separator: %s\n", yytext );}
-"]"	    {printf( "Separator: %s\n", yytext );}
-"$"	    {printf( "Separator: %s\n", yytext );}
-"+"	    {printf( "Operator: %s\n", yytext );}
-"-"	    {printf( "Operator: %s\n", yytext );}
-"*"	    {printf( "Operator: %s\n", yytext );}
-"/"	    {printf( "Operator: %s\n", yytext );}
-"<"	    {printf( "Operator: %s\n", yytext );}
-">"	    {printf( "Operator: %s\n", yytext );}
-"//"	    {printf( "Operator: %s\n", yytext );}
-"bagasubradical"	    {printf( "Operator: %s\n", yytext );}
-"bagatsubradical"	    {printf( "Operator: %s\n", yytext );}
-"=!="	{printf( "Operator: %s\n", yytext );}
-"@"	{printf( "Operator: %s\n", yytext );}
-"&"	{printf( "Operator: %s\n", yytext );}
+","	    {printf( "Separator: %s\n", yytext ); return COMA;}
+"."	    {printf( "Separator: %s\n", yytext ); return DOT;}
+"{"	    {printf( "Separator: %s\n", yytext ); return LEFT_CURLY_PARENTHESIS;}
+"}"	    {printf( "Separator: %s\n", yytext ); return RIGHT_CURLY_PARENTHESIS;}
+"("	    {printf( "Separator: %s\n", yytext ); return LEFT_ROUND_PARENTHESIS;}
+")"	    {printf( "Separator: %s\n", yytext ); return RIGHT_ROUND_PARENTHESIS;}
+"["	    {printf( "Separator: %s\n", yytext ); return LEFT_SQUARE_PARENTHESIS;}
+"]"	    {printf( "Separator: %s\n", yytext ); return RIGHT_SQUARE_PARENTHESIS;}
+"$"	    {printf( "Separator: %s\n", yytext ); return DOLLAR;}
+"+"	    {printf( "Operator: %s\n", yytext ); return PLUS;}
+"-"	    {printf( "Operator: %s\n", yytext ); return MINUS;}
+"%"	{printf( "Operator: %s\n", yytext ); return MOD;}
+"*"	    {printf( "Operator: %s\n", yytext ); return MULTIPLY;}
+"/"	    {printf( "Operator: %s\n", yytext ); return DIVISION;}
+"<"	    {printf( "Operator: %s\n", yytext ); return TOARNA_STANGA;}
+">"	    {printf( "Operator: %s\n", yytext ); return TOARNA_DREAPTA;}
+"++"	    {printf( "Operator: %s\n", yytext ); return INCREASE;}
+"--"	    {printf( "Operator: %s\n", yytext ); return DECREASE;}
 
-"==="	{printf( "Operator: %s\n", yytext );}
-"toarna"     {printf( "Operator: %s\n", yytext );}
+"//"	    {printf( "Operator: %s\n", yytext ); return DIVISION_2;}
+"bagasubradical"	    {printf( "Operator: %s\n", yytext ); return GREATER_THAN;}
+"bagatsubradical"	    {printf( "Operator: %s\n", yytext ); return SMALLER_THAN;}
+"=!="	{printf( "Operator: %s\n", yytext );  return DIFFERENT;}
+"@"	{printf( "Operator: %s\n", yytext );  return AFTER_UITE;}
+"&"	{printf( "Operator: %s\n", yytext ); return AFTER_TIPAMI;}
+
+"==="	{printf( "Operator: %s\n", yytext );  return EQUAL;}
+"toarna"     {printf( "Operator: %s\n", yytext ); return ASSIGNMENT;}
 
 
 
 [ \t]+  	{}
 [\n]+ {lines++;}
 		 
-[+-]?0[0-9]* {printf("Illegal constant at line %d\n", lines);}
+[+-]?0[0-9]* {printf("Illegal constant at line %d \n", lines); return -1; }
 
-[0-9][a-zA-Z0-9]	{printf("Illegal identifier at line %d\n", lines);}
+[0-9~@#$%^][a-zA-Z0-9]	{printf("Illegal identifier at line %d \n", lines); return -1; }
 
-
-
-\'[a-zA-Z0-9] {printf("Expected end of string on line %d\n", lines); }
-
+\"[a-zA-Z0-9] {printf("Expected end of string on line %d\n", lines); return -1; }
 %%
-void main(int argc,char** argv)
-{
-if (argc > 1)
-{
-    FILE *file;
-    file = fopen(argv[1], "r");
-    if (!file)
-    {
-        fprintf(stderr, "Could not open %s\n", argv[1]);
-        exit(1);
-    }
-    yyin = file;
-}
-
-yylex();
-}
